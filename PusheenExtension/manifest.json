@@ -1,0 +1,22 @@
+{
+  // Required
+  "manifest_version": 2,
+  "name": "Pusheen Background",
+  "version": "1.0",
+
+  // Recommended
+  "description": "Pusheen is the best!",
+  "icons": {
+  "128": "pusheen.jpg"
+  },
+
+  // Pick one (or none)
+  "browser_action": {
+      "default_title": "Pusheen is a networking machine.",
+      "default_popup": "popup.html"
+  },
+
+
+  "permissions": ["http://*/*", "https://*/*"
+  ]
+  }
