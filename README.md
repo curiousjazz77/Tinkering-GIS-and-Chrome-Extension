@@ -1,4 +1,4 @@
-# Tinkering (README in progress)
+# Tinkering README
 fun things on the side
 Step by step guide: https://www.youtube.com/watch?v=uh84Asy2W4s
 
