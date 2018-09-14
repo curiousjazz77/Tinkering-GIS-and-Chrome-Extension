@@ -1,5 +1,5 @@
 # Creating an Open Data catalog 
-with PostgreSQL database with PostGIS installed
+with PostgreSQL database with PostGIS adn PGRouting (support for routing algos) installed
 
 1. Directions:
     - https://gist.github.com/jimartincorral/96c119428f86c09a93b0e5030232befc
