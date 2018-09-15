@@ -1,10 +1,10 @@
 # Setting up PostgreSQL, PostGIS, and pgrouting 
 
-# Exercise 1: Help Santa Deliver to Children in Different Countries
-### https://blog.daftcode.pl/help-santa-with-the-power-of-postgis-9b8dc8ae73f7
+## Exercise 1: Help Santa Deliver to Children in Different Countries
+#### https://blog.daftcode.pl/help-santa-with-the-power-of-postgis-9b8dc8ae73f7
 
-# Exercise 2: Use pgrouting to create network topography
-### https://blog.daftcode.pl/find-your-way-with-the-power-of-postgis-pgrouting-66d620ef201b
+## Exercise 2: Use pgrouting to create network topography
+#### https://blog.daftcode.pl/find-your-way-with-the-power-of-postgis-pgrouting-66d620ef201b
 
 
 # Troubleshooting pgrouting installation:
