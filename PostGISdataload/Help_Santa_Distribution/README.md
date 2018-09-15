@@ -1,13 +1,13 @@
 # Setting up PostgreSQL, PostGIS, and pgrouting 
 
-## Exercise 1: Help Santa Deliver to Children in Different Countries
-#### https://blog.daftcode.pl/help-santa-with-the-power-of-postgis-9b8dc8ae73f7
+### Exercise 1: Help Santa Deliver to Children in Different Countries
+##### https://blog.daftcode.pl/help-santa-with-the-power-of-postgis-9b8dc8ae73f7
 
-## Exercise 2: Use pgrouting to create network topography
-#### https://blog.daftcode.pl/find-your-way-with-the-power-of-postgis-pgrouting-66d620ef201b
+### Exercise 2: Use pgrouting to create network topography
+##### https://blog.daftcode.pl/find-your-way-with-the-power-of-postgis-pgrouting-66d620ef201b
 
 
-# Troubleshooting pgrouting installation:
+### Troubleshooting pgrouting installation:
   1. Issue: $libdir not pointing to the right place
   
     - Help:
@@ -26,7 +26,7 @@
     and change the $libdir/libpgrouting variable in the .sql file to the full path. 
     Homebrew's pgrouting doesn't install to the Postgress.App.
     
-# Troubleshooting create topology
+### Troubleshooting create topology
 
 1. Issue: PGR ERROR in pgr_createTopology: Column source not found when trying: https://blog.daftcode.pl/find-your-way-with-the-power-of-postgis-pgrouting-66d620ef201b
 
