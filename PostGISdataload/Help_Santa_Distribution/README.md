@@ -5,7 +5,7 @@
 ##### https://blog.daftcode.pl/help-santa-with-the-power-of-postgis-9b8dc8ae73f7
 
 
-## &#x1F4D8; Exercise 2: Use pgrouting to create network topography
+## &#x1F4D9; Exercise 2: Use pgrouting to create network topography
 ##### https://blog.daftcode.pl/find-your-way-with-the-power-of-postgis-pgrouting-66d620ef201b
 
 
