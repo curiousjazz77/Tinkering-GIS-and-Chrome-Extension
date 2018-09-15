@@ -1,7 +1,7 @@
 # Setting up PostgreSQL, PostGIS, and pgrouting 
 
 
-## Exercise 1: Help Santa Deliver to Children in Different Countries
+## <span style="color:blue;">Exercise 1: Help Santa Deliver to Children in Different Countries</span>
 ##### https://blog.daftcode.pl/help-santa-with-the-power-of-postgis-9b8dc8ae73f7
 
 
