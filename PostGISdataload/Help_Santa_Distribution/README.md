@@ -16,3 +16,16 @@
     files to /Applications/Postgres.app/Contents/Versions/10/share/postgresql/extension/ 
     and change the $libdir/libpgrouting variable in the .sql file to the full path. 
     Homebrew's pgrouting doesn't install to the Postgress.App.
+    
+# Troubleshooting create topology
+
+1. Issue: PGR ERROR in pgr_createTopology: Column source not found when trying: https://blog.daftcode.pl/find-your-way-with-the-power-of-postgis-pgrouting-66d620ef201b
+
+  - Help: 
+    - https://docs.pgrouting.org/2.2/en/src/topology/doc/pgr_createTopology.html
+    
+2. Columns needed to be created:
+  - ALTER TABLE roads ADD COLUMN source integer;
+  - ALTER TABLE roads ADD COLUMN target integer;
+  - CREATE INDEX roads_source_idx ON roads (source);
+  - CREATE INDEX roads_target_idx ON roads (target);
