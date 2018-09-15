@@ -1,5 +1,6 @@
 # Troubleshooting pgrouting installation:
   1. Issue: $libdir not pointing to the right place
+  
     - Help:
       - https://www.pg-forum.de/viewtopic.php?t=3357 
       - https://www.postgresql.org/docs/9.5/static/install-post.html
@@ -9,4 +10,5 @@
       - https://github.com/pgRouting/pgrouting/issues/290
       
   2. Solution
+  
     - In the end, I needed to move the `libpgrouting-2.6.so`, `pgrouting.control`, and `pgrouting--2.6.0.sql` files to `/Applications/Postgres.app/Contents/Versions/10/share/postgresql/extension/` and change the `$libdir/libpgrouting` variable in the .sql file to the full path. Homebrew's pgrouting doesn't install to the Postgress.App.
