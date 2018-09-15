@@ -13,4 +13,6 @@
   
     - In the end, I needed to move the 
     ```libpgrouting-2.6.so, pgrouting.control, and pgrouting--2.6.0.sql```
-    files to /Applications/Postgres.app/Contents/Versions/10/share/postgresql/extension/ and change the $libdir/libpgrouting variable in the .sql file to the full path. Homebrew's pgrouting doesn't install to the Postgress.App.
+    files to /Applications/Postgres.app/Contents/Versions/10/share/postgresql/extension/ 
+    and change the $libdir/libpgrouting variable in the .sql file to the full path. 
+    Homebrew's pgrouting doesn't install to the Postgress.App.
