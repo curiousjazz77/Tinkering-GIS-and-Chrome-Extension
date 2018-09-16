@@ -13,3 +13,4 @@ General Information
     
 3. Using Python with GIS
     - https://automating-gis-processes.github.io/CSC18/lessons/L1/Intro-Python-GIS.html
+    - https://pypi.org/project/Shapely/
