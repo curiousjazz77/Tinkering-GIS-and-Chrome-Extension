@@ -1,10 +1,11 @@
 # Tinkering README
 fun things on the side
 
-## Open data Catalog with PostgreSQL with PostGIS installed
+## &#x1F4D8; Using Python and GIS 
 
+## &#x1F4D9; Using PostgreSQL with PostGIS installed
 
-## Chrome extension: 
+## &#x1F4D8; Chrome extension: 
 - Step by step guide: https://www.youtube.com/watch?v=uh84Asy2W4s
   - Pusheen extension - 5 files
     - popup.html
