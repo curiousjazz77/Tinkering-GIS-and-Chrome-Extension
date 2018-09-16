@@ -37,11 +37,17 @@ if __name__ == '__main__':
     # Plot the one with ETRS-LAEA projection
     data_proj.plot(facecolor='blue')
 
+    #save
+    plt.savefig('/Users/<redacted>/pythonGIS/Europe_borders/WGS84projection')
+
     # Add title
     plt.title("ETRS Lambert Azimuthal Equal Area projection")
 
     # Remove empty white space around the plot
     plt.tight_layout()
+
+    #save
+    plt.savefig('/Users/<redacted>/pythonGIS/Europe_borders/WGS84projection_2')
 
     # Determine the CRS of the GeoDataFrame
     data_proj.crs = from_epsg(3035)
