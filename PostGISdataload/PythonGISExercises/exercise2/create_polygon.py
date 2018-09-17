@@ -47,13 +47,13 @@ if __name__ == '__main__':
     # P5. Save the GeoDataFrame into a new Shapefile called 'polygon.shp'
     # --------------------------------------------------------------------
     # Note: you do not need to define the coordinate reference system at this time
-    poly_shp = "/Users/jasmineomeke/Desktop/pythonGIS/polygon.shp"
+    poly_shp = "/Users/<redacted>/pythonGIS/polygon.shp"
     geo.to_file(poly_shp)
 
 
     # P6. Plot the polygon using taking advantage of the .plot() -function in GeoDataFrame. Save a PNG figure out of your plot and upload it to your GitHub repository.
     # -----------------------------------------------------------------------------------------------------------------------------------------------------------------
     geo.plot()
-    plt.savefig('/Users/jasmineomeke/Desktop/pythonGIS/poly_projection')
+    plt.savefig('/Users/<redacted>/pythonGIS/poly_projection')
 
 
