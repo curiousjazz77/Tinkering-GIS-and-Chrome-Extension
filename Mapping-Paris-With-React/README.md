@@ -1,5 +1,9 @@
 # Mapping Paris with React
+This project uses React and Leaflet.js to map historical landmarks in Paris. 
+
 ![](https://github.com/curiousjazz77/Tinkering-GIS-and-Chrome-Extension/blob/master/Mapping-Paris-With-React/mapping_paris.png)
+
+### More information:
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
