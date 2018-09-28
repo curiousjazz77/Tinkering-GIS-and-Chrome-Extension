@@ -1,3 +1,6 @@
+# Mapping Paris with React
+![](https://github.com/curiousjazz77/Tinkering-GIS-and-Chrome-Extension/blob/master/Mapping-Paris-With-React/mapping_paris.png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
